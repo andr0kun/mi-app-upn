@@ -112,10 +112,7 @@ function App() {
           <p>Telefono</p>
           <input name="phone" type= "tel" placeholder= "Ingrese un número válido" onChange={handleChange3}/>
           </label>
-          <label>
-          <p>Direccion</p>
-          <input name="avenue" onChange={handleChange4}/>
-          </label>
+          
         </fieldset>
         <button type="submit">Submit</button>
       </form>
